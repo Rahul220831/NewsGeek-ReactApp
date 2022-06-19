@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "21301b990bb31ff0e892",
+    "revision": "c480b77734b70f6cc737",
     "url": "/NewsGeek--ReactApp/static/css/main.088ae246.chunk.css"
   },
   {
-    "revision": "21301b990bb31ff0e892",
-    "url": "/NewsGeek--ReactApp/static/js/main.55eeb38c.chunk.js"
+    "revision": "c480b77734b70f6cc737",
+    "url": "/NewsGeek--ReactApp/static/js/main.63e5db16.chunk.js"
   },
   {
     "revision": "07e29afac5783b5ea034",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/NewsGeek--ReactApp/static/media/loading.444c0d9c.gif"
   },
   {
-    "revision": "50e27c4ad6218c2758cc7c62c3b6d12a",
+    "revision": "0cb2a8247f425abc97adb7b9a058e3fa",
     "url": "/NewsGeek--ReactApp/index.html"
   }
 ];
