@@ -33,9 +33,10 @@ const News =(props)=> {
 
  
   const fetchMoreData = async() => {
-    setpage(page+1);
+    
     let url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=6c5f2e9ad307401daa3b11271282c9ab&page=${
         page + 1}&pageSize=${props.pageSize}`;
+        setpage(page+1);
     setloading(true);
     let data = await fetch(url)
     let parsedData = await data.json();
@@ -50,7 +51,7 @@ const News =(props)=> {
     return (
       <div className="bg-success p-2 text-dark bg-opacity-25">
         <div className="container my-3">
-          <h2 className="text-center">
+          <h2 className="text-center" style={{marginTop:"90px", marginBottom:"35px"}} >
             NewsGeek- {cfl(props.category)} Trending News{" "}
           </h2>
           {/* {state.loading && <Spinner/>} */}
