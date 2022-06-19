@@ -1,13 +1,13 @@
 import "./App.css";
 
-import React, { Component } from "react";
+import React from "react";
 import Navbar from "./components/Navbar";
 import News from "./components/News";
 import { BrowserRouter as Router,  Route } from "react-router-dom";
 import { Routes  } from 'react-router-dom';
 
-export default class App extends Component {
-  render() {
+const App =()=>{
+  
     return (
       <Router>
         <div>
@@ -42,4 +42,5 @@ export default class App extends Component {
       </Router>
     );
   }
-}
+
+export default App
